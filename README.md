@@ -2,9 +2,9 @@
 
 This is an analysis for any traveller with three particular endpoints:
 
-    - Retrieve current weather data for a handful of locations;
-    - Filter from those locations based on the customers' temperature preference and show a map of the filtered locations;
-    - Pick four random cities and show a travel map with popular transport modes (Driving, Walking or Bicycles) 
+ - Retrieve current weather data for a handful of locations;
+ - Filter from those locations based on the customers' temperature preference and show a map of the filtered locations;
+ - Pick four random cities and show a travel map with popular transport modes (Driving, Walking or Bicycles) 
 
 ## Analysis
 The analysis starts with generating a random list of coordinates to retrieve the location data & current weather for them. This included subscribing to the Citipy python module as well as the Openweathermaps API. This allowed to retrieved the city name with the Citypy module and then retrieving their current wether via the Openweathermaps API.
